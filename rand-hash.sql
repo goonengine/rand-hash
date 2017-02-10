@@ -5,6 +5,7 @@
 -- Scripts:
 
 print dbo.ufnGetRandomHash('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ', 16)
+--N86K65QMKEBEFYJ3
 =============================================*/
 CREATE FUNCTION [dbo].[ufnGetRandomHash] 
 (
