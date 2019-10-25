@@ -1,7 +1,7 @@
 /*=============================================
 -- Author: Dev1
 -- Create date: 2017-02-02
--- Description: Generate a string for Randomized Hash string.
+-- Description: Generate a string for Randomized Hash string with Seed string.
 -- Scripts:
 
 print dbo.ufnGetRandomHash('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ', 16)
