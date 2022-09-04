@@ -4,10 +4,10 @@
 -- Description: Generate a string for Randomized Hash string with Seed string.
 -- Scripts:
 
-print dbo.ufnGetRandomHash('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ', 16)
+print dbo.FuncGetRandomHash('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ', 16)
 --N86K65QMKEBEFYJ3
 =============================================*/
-CREATE FUNCTION [dbo].[ufnGetRandomHash] 
+CREATE FUNCTION [dbo].[FuncGetRandomHash] 
 (
 	@seed VARCHAR(64),
 	@let_cnt INT
